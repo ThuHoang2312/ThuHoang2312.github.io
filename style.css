@@ -158,10 +158,6 @@ h2 {
   font-weight: 500;
 }
 
-p {
-  line-height: 0%;
-}
-
 .group {
   display: flex;
   flex-direction: column;
