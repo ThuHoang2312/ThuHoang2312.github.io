@@ -71,6 +71,43 @@ footer {
   grid-row: span 2;
 }
 
+nav {
+  position: relative;
+  background-color: #fcd5ce;
+}
+.mobileMenu > .mobileMenuContent {
+  position: absolute;
+  display: none;
+  flex-flow: row wrap;
+  background-color: #f08080;
+  height: max-content;
+  left: 0px;
+  top: 85px;
+}
+.mobileMenu {
+  font-size: 30px;
+  display: block;
+  padding: 25px 10px;
+}
+.mobileMenu > .mobileMenuContent > a {
+  width: 100%;
+  padding: 10px 5px 10px 10px;
+}
+.mobileMenu > .mobileMenuContent > a:hover {
+  background-color: #f8ad9d;
+}
+.mobileMenu > .button {
+  display: block;
+}
+.mobileMenu:hover .mobileMenuContent {
+  display: flex;
+  width: 700px;
+}
+.mobileMenu > .mobileMenuContent:hover {
+  display: flex;
+  width: 700px;
+}
+
 @media only screen and (max-width: 1366px) {
   body {
     display: block;
@@ -82,9 +119,6 @@ footer {
   }
   footer {
     grid-column: 1/1;
-  }
-  nav {
-    padding: 10px;
   }
   footer {
     width: 100%;
@@ -103,9 +137,5 @@ footer {
   }
   h2 {
     font-size: 22px;
-  }
-  /* May heo tu code dropdown menu */
-  nav {
-    display: none;
   }
 }
