@@ -68,7 +68,10 @@ main {
 footer {
   grid-column: 2/3;
   grid-row: span 2;
-  justify-content: center;
+  place-items: start stretch;
+  text-align: center;
+  padding: 30px;
+  background-color: #fcd5ce;
 }
 
 nav {
@@ -120,9 +123,7 @@ nav {
   footer {
     grid-column: 1/1;
   }
-  footer {
-    width: 100%;
-  }
+
   header {
     width: 100%;
   }
