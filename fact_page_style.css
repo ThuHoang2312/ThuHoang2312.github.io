@@ -36,6 +36,8 @@ body {
 }
 .statistic > h1 {
   text-align: center;
+  padding: 25px 10px;
+  margin: 0;
 }
 .fas {
   padding: 0px 5px 0px 0px;
@@ -104,7 +106,7 @@ nav {
 }
 .mobileMenu:hover .mobileMenuContent {
   display: flex;
-  width: 700px;
+  width: auto;
 }
 .mobileMenu > .mobileMenuContent:hover {
   display: flex;
