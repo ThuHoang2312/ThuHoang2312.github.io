@@ -229,8 +229,8 @@ nav > .mobileMenu > .button {
     flex-flow: row wrap;
     width: 100%;
   }
-  nav {
-    padding: 25px 10px;
+  nav > .mobileMenu {
+    margin: 25px 10px;
   }
   footer {
     width: 100%;
@@ -293,7 +293,7 @@ nav > .mobileMenu > .button {
     background-color: #f08080;
     height: max-content;
     left: -1px;
-    top: 85px;
+    top: 104px;
   }
   nav > .mobileMenu {
     font-size: 30px;
@@ -310,6 +310,10 @@ nav > .mobileMenu > .button {
     display: block;
   }
   nav > .mobileMenu:hover .mobileMenuContent {
+    display: flex;
+    width: 200px;
+  }
+  nav > .mobileMenu > .mobileMenuContent:hover {
     display: flex;
     width: 200px;
   }
