@@ -23,8 +23,23 @@ body {
   min-height: 100%;
   margin: 0px;
 }
+figure {
+  margin: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+figcaption {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 5px;
+}
 .cell-width-40 {
   width: 40%;
+}
+.fa-heart {
+  color: #f08080;
 }
 .cell-text-allign-left {
   text-align: start;
@@ -112,6 +127,9 @@ nav {
   display: flex;
   width: 700px;
 }
+img {
+  max-width: 700px;
+}
 
 @media only screen and (max-width: 1366px) {
   body {
@@ -141,6 +159,9 @@ nav {
   h2 {
     font-size: 22px;
   }
+  img {
+    max-width: 550px;
+  }
 }
 
 @media only screen and (max-width: 760px),
@@ -152,6 +173,10 @@ nav {
   td,
   tr {
     display: block;
+  }
+
+  tbody {
+    padding-bottom: 20px;
   }
 
   thead tr {
@@ -206,5 +231,10 @@ nav {
   }
   .cell-text-allign-left {
     text-align: end;
+  }
+}
+@media only screen and (max-width: 600px) {
+  img {
+    max-width: 300px;
   }
 }

@@ -109,6 +109,9 @@ nav {
   font-size: 30px;
   padding: 5px 0px 5px 0px;
 }
+.fa-heart {
+  color: #f08080;
+}
 
 .iconWrapper {
   display: inline-flex;
