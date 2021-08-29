@@ -3,6 +3,9 @@ html {
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
 }
+button {
+  cursor: pointer;
+}
 br {
   display: block;
   margin: 15px 0;

@@ -4,6 +4,10 @@ html {
   font-size: 30px;
 }
 
+button {
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: black;
