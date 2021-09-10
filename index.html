@@ -18,7 +18,8 @@
     ></script>
   </head>
 
-  <body>
+  <!-- tabindex to help hover works on ios -->
+  <body tabindex="0">
     <header>
       <div class="avatarWrapper">
         <img class="avatar" src="./avatar.png" alt="Avatar" />
@@ -29,7 +30,7 @@
       </div>
       <nav>
         <div class="mobileMenu">
-          <div class="button" onclick=""><i class="fas fa-bars"></i> Menu</div>
+          <div class="button"><i class="fas fa-bars"></i> Menu</div>
           <div class="mobileMenuContent">
             <a href="#bio">Bio</a>
             <a href="#skills">Skills</a>
