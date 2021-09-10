@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
   grid-template-rows: min-content min-content;
-  background-color: #f8edeb;
+  background-image: url("2021_09_11_00n_Kleki.png");
   min-height: 100%;
   margin: 0px;
 }
@@ -125,7 +125,6 @@ nav {
 }
 .mobileMenu > .mobileMenuContent:hover {
   display: flex;
-  width: 700px;
 }
 img {
   max-width: 700px;

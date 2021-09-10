@@ -22,7 +22,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 3fr 1fr;
   grid-template-rows: 1fr 3fr min-content;
-  background-color: #f8edeb;
+  background-image: url("2021_09_11_00n_Kleki.png");
   min-height: 100%;
   margin: 0px;
 }
